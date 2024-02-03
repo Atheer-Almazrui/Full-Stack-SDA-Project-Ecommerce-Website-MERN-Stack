@@ -27,7 +27,7 @@ app.use(
   })
 )
 app.use('/public', express.static('public')) // to allows access images from frontend
-app.use(myLogger)
+// app.use(myLogger)
 app.use(cookieParser())
 app.use(morgan('dev'))
 app.use(express.json())
