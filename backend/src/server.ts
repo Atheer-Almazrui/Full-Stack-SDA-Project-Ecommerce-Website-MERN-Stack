@@ -45,9 +45,14 @@ app.get('/', (request, response) => {
   })
 })
 
+app.use((req, res, next) => {
+  connectDB() // connect mongo database
+  next()
+})
+
+
 app.listen(PORT, () => {
   console.log('Server running http://localhost:' + PORT)
-  connectDB()
 })
 
 // Client error
