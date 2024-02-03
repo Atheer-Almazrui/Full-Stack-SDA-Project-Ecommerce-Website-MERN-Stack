@@ -1,0 +1,113 @@
+.product-page {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+  left: 15rem;
+  top: 9rem;
+  
+
+  .product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60rem;
+    margin-bottom: 6rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    .product-image {
+      text-align: center;
+      max-height: 100%;
+
+      img {
+        max-width: 17rem;
+        border-radius: 4px;
+      }
+    }
+
+    .product-details {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+
+      .product-name {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .product-description {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        margin-bottom: 0.5rem;
+      }
+
+      .product-categories,
+      .product-variants,
+      .product-sizes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        .category,
+        .variant,
+        .size {
+          background-color: #e9e9e9;
+          color: #333;
+          padding: 0.25rem 0.5rem;
+          border-radius: 4px;
+        }
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+      }
+
+      .add-to-cart-btn {
+        display: block;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 0.7em;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+
+        &:hover {
+          background-color: #464646;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1025px) {
+    .product-page {
+      display: block;
+    }
+
+    .product-card {
+      width: 70%;
+      margin: 2rem 0rem;
+      grid-template-columns: 1fr;
+    }
+
+    .product-image {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .product-details {
+      grid-template-rows: auto auto 1fr auto;
+    }
+  }
+}

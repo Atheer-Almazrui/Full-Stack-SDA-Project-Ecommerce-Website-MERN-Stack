@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "borrowerId": 1,
+    "bookId": 1,
+    "borrowDate": "2023-09-18",
+    "returnDate": null,
+    "dueDate": "2023-10-18"
+  },
+  {
+    "id": 2,
+    "borrowerId": 2,
+    "bookId": 3,
+    "borrowDate": "2023-09-20",
+    "returnDate": null,
+    "dueDate": "2023-10-20"
+  },
+  {
+    "id": 3,
+    "borrowerId": 3,
+    "bookId": 5,
+    "borrowDate": "2023-09-22",
+    "returnDate": null,
+    "dueDate": "2023-10-22"
+  },
+  {
+    "id": 5,
+    "borrowerId": 5,
+    "bookId": 2,
+    "borrowDate": "2023-09-28",
+    "returnDate": null,
+    "dueDate": "2023-10-28"
+  }
+]

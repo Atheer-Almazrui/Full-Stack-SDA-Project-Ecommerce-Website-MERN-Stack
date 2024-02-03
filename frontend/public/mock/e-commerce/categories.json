@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Computers"
+  },
+  {
+    "id": 3,
+    "name": "Mobile Phones"
+  },
+  {
+    "id": 4,
+    "name": "Gaming"
+  },
+  {
+    "id": 5,
+    "name": "Photography"
+  },
+  {
+    "id": 6,
+    "name": "Health & Fitness"
+  },
+  {
+    "id": 7,
+    "name": "Home Entertainment"
+  },
+  {
+    "id": 8,
+    "name": "Home Appliances"
+  },
+  {
+    "id": 9,
+    "name": "Audio"
+  },
+  {
+    "id": 10,
+    "name": "Storage"
+  }
+]

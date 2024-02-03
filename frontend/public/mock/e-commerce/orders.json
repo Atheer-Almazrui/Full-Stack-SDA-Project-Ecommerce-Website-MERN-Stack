@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "productId": 1,
+    "userId": 1,
+    "purchasedAt": "2023-09-18T10:00:00"
+  },
+  {
+    "id": 2,
+    "productId": 3,
+    "userId": 2,
+    "purchasedAt": "2023-09-19T11:30:00"
+  },
+  {
+    "id": 3,
+    "productId": 7,
+    "userId": 3,
+    "purchasedAt": "2023-09-20T14:45:00"
+  },
+  {
+    "id": 4,
+    "productId": 2,
+    "userId": 4,
+    "purchasedAt": "2023-09-21T16:20:00"
+  },
+  {
+    "id": 5,
+    "productId": 5,
+    "userId": 5,
+    "purchasedAt": "2023-09-22T09:10:00"
+  },
+  {
+    "id": 6,
+    "productId": 9,
+    "userId": 6,
+    "purchasedAt": "2023-09-23T17:30:00"
+  },
+  {
+    "id": 7,
+    "productId": 4,
+    "userId": 7,
+    "purchasedAt": "2023-09-24T13:15:00"
+  },
+  {
+    "id": 8,
+    "productId": 11,
+    "userId": 8,
+    "purchasedAt": "2023-09-25T10:05:00"
+  },
+  {
+    "id": 9,
+    "productId": 10,
+    "userId": 9,
+    "purchasedAt": "2023-09-26T12:40:00"
+  },
+  {
+    "id": 10,
+    "productId": 6,
+    "userId": 10,
+    "purchasedAt": "2023-09-27T15:55:00"
+  }
+]

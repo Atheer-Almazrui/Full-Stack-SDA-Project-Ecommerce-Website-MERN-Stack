@@ -1,0 +1,331 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80vw;
+  overflow: auto;
+  margin-left: 3.5rem;
+  // background-color: antiquewhite;
+
+  .title {
+    margin-left: 7rem;
+    color: #fff;
+  }
+
+  .table-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0.5rem;
+    overflow-x: auto;
+    // background-color: blue;
+  }
+
+  .table {
+    width: 100%;
+    font-size: 1rem;
+    background-color: white;
+    border-collapse: collapse;
+
+    Th,
+    Td {
+      padding: 0.5em;
+      border-bottom: 2px solid #4b4b4b;
+      border-left: 2px solid #cccccc;
+      text-align: center;
+
+      .category {
+        background-color: #e9e9e9;
+        text-align: center;
+        color: #333;
+        padding: 0.2em 0.1em;
+        margin: 0.5rem;
+        border-radius: 5px;
+
+        @media screen and (max-width: 900px) and (min-width: 400px) {
+          width: fit-content;
+          padding: 0.2em 0.3em;
+        }
+      }
+    }
+
+    .td-id {
+      max-width: 50px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    Th {
+      font-weight: bold;
+    }
+
+    img {
+      height: 100px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .file-upload {
+      display: inline-block;
+
+      &__input {
+        display: none;
+      }
+
+      &__label {
+        display: inline-block;
+        padding: 0.2em 0.1em;
+        color: #02006b;
+        background-color: #e0e0e0;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #d0d0d0;
+        }
+      }
+    }
+  }
+
+  .floating-button {
+    position: fixed;
+    z-index: 1;
+    top: 6.7rem;
+    left: 20.5rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      transform: scale(1.1);
+      transition-duration: 0.1s;
+    }
+
+    &:active {
+      transform: rotate(180deg);
+      transition-duration: 0.5s;
+    }
+
+    @media screen and (max-width: 900px) and (min-width: 400px) {
+      left: 9rem;
+    }
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 1em 0.4em;
+    font-size: 1rem;
+    border: 2px solid rgb(223, 225, 230);
+    border-radius: 10px;
+    background-color: rgb(250, 251, 252);
+    box-sizing: border-box;
+    transition: background-color 0.2s ease-in-out 0s;
+
+    &:focus {
+      background-color: rgb(240, 240, 240);
+      outline: none;
+    }
+  }
+
+  .save-update-buttons {
+    padding: 1em 1em;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    background-color: black;
+    border: none;
+    transition: background-color 0.2s ease-in-out 0s;
+    color: white;
+
+    &:hover {
+      background-color: rgb(129, 129, 129);
+    }
+  }
+
+  .action-icons {
+    margin: 0.7rem;
+    font-size: 1.4rem;
+
+    &:hover {
+      color: red;
+      transform: scale(1.2);
+    }
+  }
+
+  .ban-icon {
+    margin: 0.7rem;
+    font-size: 1.4rem;
+    color: red;
+    position: relative;
+    display: inline-block;
+
+    &:hover {
+      transform: scale(1.2);
+      color: red;
+    }
+
+    &:hover::after {
+      content: 'Banned';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0.5em;
+      background-color: #ccc;
+      color: red;
+      border-radius: 5px;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 0.65rem;
+    }
+  }
+
+  .unban-icon {
+    margin: 0.7rem;
+    font-size: 1.4rem;
+    position: relative;
+    display: inline-block;
+
+    &:hover {
+      transform: scale(1.2);
+      color: red;
+    }
+    &:hover::after {
+      content: 'Unbanned';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0.5em;
+      background-color: #ccc;
+      border-radius: 5px;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 0.65rem;
+    }
+  }
+
+  .role-icon-admin {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    font-size: 1.4rem;
+    position: relative;
+    display: inline-block;
+    color: blue;
+
+    &:hover {
+      transform: scale(1.2);
+      color: black;
+    }
+    &:hover::after {
+      content: 'Revoke admin';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0.5em;
+      background-color: #ccc;
+      border-radius: 5px;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 0.65rem;
+    }
+  }
+
+  .role-icon-user {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    font-size: 1.4rem;
+    position: relative;
+    display: inline-block;
+
+    &:hover {
+      transform: scale(1.2);
+      color: blue;
+    }
+    &:hover::after {
+      content: 'Grant admin';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0.5em;
+      background-color: #ccc;
+      border-radius: 5px;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 0.65rem;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 400px) {
+  .admin-container {
+    min-width: 79vw;
+    margin: 0rem 5%;
+  }
+}
+
+.responsiveTable {
+  width: 100%;
+}
+
+.responsiveTable td .tdBefore {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  /*
+    Force table elements to not behave like tables anymore
+    Hide table headers (but not display: none;, for accessibility)
+  */
+
+  .responsiveTable table,
+  .responsiveTable thead,
+  .responsiveTable tbody,
+  .responsiveTable th,
+  .responsiveTable td,
+  .responsiveTable tr {
+    display: block;
+  }
+
+  .responsiveTable thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    border-bottom: 2px solid #333;
+  }
+
+  .responsiveTable tbody tr {
+    border: 1px solid #000;
+    padding: 0.25em;
+  }
+
+  .responsiveTable td.pivoted {
+    /* Behave like a "row" */
+    border: none !important;
+    position: relative;
+    padding-left: calc(50% + 10px) !important;
+    text-align: left !important;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+
+  .responsiveTable td .tdBefore {
+    /* Now like a table header */
+    position: absolute;
+    display: block;
+
+    /* Top/left values mimic padding */
+    left: 1rem;
+    width: calc(50% - 20px);
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    text-align: left !important;
+    font-weight: 600;
+  }
+}

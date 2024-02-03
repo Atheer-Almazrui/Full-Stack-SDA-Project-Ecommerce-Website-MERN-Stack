@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: system-ui;
+  background: linear-gradient(300deg, #5c5c5c, #0e3157, #7ba5c9);
+  background-size: 180% 180%;
+  animation: body 3s ease infinite;
+  /* Hide scrollbars
+  overflow: hidden; */
+
+  @keyframes body {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}

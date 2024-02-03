@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "image": "https://m.media-amazon.com/images/I/81KoSSAwH2L._SL1500_.jpg",
+    "description": "High-performance laptop for all your needs.",
+    "categories": [1, 2],
+    "variants": ["8GB RAM", "16GB RAM"],
+    "sizes": ["13-inch", "15-inch"],
+    "price": 1500
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "image": "https://m.media-amazon.com/images/I/81SigpJN1KL._SL1500_.jpg",
+    "description": "Latest smartphone with advanced features.",
+    "categories": [1, 3],
+    "variants": ["64GB", "128GB"],
+    "sizes": [],
+    "price": 2200
+  },
+  {
+    "id": 3,
+    "name": "Tablet",
+    "image": "https://m.media-amazon.com/images/I/81gC7frRJyL._SL1500_.jpg",
+    "description": "Compact and powerful tablet for work and entertainment.",
+    "categories": [1, 2],
+    "variants": ["32GB", "64GB"],
+    "sizes": ["10-inch", "12-inch"],
+    "price": 800
+  },
+  {
+    "id": 4,
+    "name": "Gaming Console",
+    "image": "https://m.media-amazon.com/images/I/51wPWj--fAL._SL1000_.jpg",
+    "description": "Next-gen gaming console for immersive gameplay.",
+    "categories": [4],
+    "variants": ["500GB", "1TB"],
+    "sizes": [],
+    "price": 500
+  },
+  {
+    "id": 5,
+    "name": "Camera",
+    "image": "https://m.media-amazon.com/images/I/41zG3lqcEvL._SL1000_.jpg",
+    "description": "High-resolution camera for capturing memories.",
+    "categories": [5],
+    "variants": ["24MP", "36MP"],
+    "sizes": [],
+    "price": 550
+  },
+  {
+    "id": 6,
+    "name": "Fitness Tracker",
+    "image": "https://m.media-amazon.com/images/I/61JL0ccPltL._SL1500_.jpg",
+    "description": "Track your health and fitness goals with this smart tracker.",
+    "categories": [6],
+    "variants": ["Small", "Large"],
+    "sizes": [],
+    "price": 100
+  },
+  {
+    "id": 7,
+    "name": "Home Theater System",
+    "image": "https://m.media-amazon.com/images/I/615+VvllX6L._SL1500_.jpg",
+    "description": "Create a cinematic experience at home with this system.",
+    "categories": [7],
+    "variants": ["5.1 Surround Sound", "7.1 Surround Sound"],
+    "sizes": [],
+    "price": 2000
+  },
+  {
+    "id": 8,
+    "name": "Coffee Maker",
+    "image": "https://m.media-amazon.com/images/I/51JKNxKS1dL._SL1200_.jpg",
+    "description": "Brew your favorite coffee at home with ease.",
+    "categories": [8],
+    "variants": ["Single Serve", "Drip Coffee Maker"],
+    "sizes": [],
+    "price": 150
+  },
+  {
+    "id": 9,
+    "name": "Bluetooth Speaker",
+    "image": "https://m.media-amazon.com/images/I/61N2a48p9xL._SL1200_.jpg",
+    "description": "Portable speaker for music on the go.",
+    "categories": [9],
+    "variants": ["Black", "White"],
+    "sizes": [],
+    "price": 300
+  },
+  {
+    "id": 10,
+    "name": "External Hard Drive",
+    "image": "https://m.media-amazon.com/images/I/81pAOJFcsFS._SL1500_.jpg",
+    "description": "Store and backup your data with high-capacity storage.",
+    "categories": [10],
+    "variants": ["1TB", "2TB"],
+    "sizes": [],
+    "price": 200
+  },
+  {
+    "id": 11,
+    "name": "Headphones",
+    "image": "https://m.media-amazon.com/images/I/51j7l0QISqL._SL1000_.jpg",
+    "description": "Noise-cancelling headphones for immersive audio experience.",
+    "categories": [9],
+    "variants": ["Over-Ear", "In-Ear"],
+    "sizes": [],
+    "price": 50
+  },
+  {
+    "id": 12,
+    "name": "Smartwatch",
+    "image": "https://m.media-amazon.com/images/I/811GOkDSOaL._SL1500_.jpg",
+    "description": "Stay connected and track your activities with this smartwatch.",
+    "categories": [6],
+    "variants": ["Titanium"],
+    "sizes": [],
+    "price": 200
+  }
+]
