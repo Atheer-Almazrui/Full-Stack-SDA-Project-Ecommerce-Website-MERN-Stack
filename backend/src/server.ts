@@ -39,6 +39,12 @@ app.use('/api/categories', categoryRouter)
 app.use('/api/users', usersRouter)
 app.use('/api/auth', authRouter)
 
+app.get('/', (request, response) => {
+  response.json({
+    message: 'The server is running..',
+  })
+})
+
 app.listen(PORT, () => {
   console.log('Server running http://localhost:' + PORT)
   connectDB()
@@ -52,3 +58,5 @@ app.use((req, res, next) => {
 
 // It have to be at the bottom of all routes so they can reach to it
 app.use(errorHandler)
+
+export default app
