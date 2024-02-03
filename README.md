@@ -98,5 +98,10 @@ If you have a higher skill level and finish the previous requirements before the
 2. Integrate JWT authentication and authorization mechanisms to secure the API endpoints and restrict access to certain routes or operations.
 3. Add functionality to handle related resources (e.g., for an e-commerce store, add routes for placing an order).
 
-
 Happy coding!
+
+## short Demo
+
+https://github.com/Atheer-Almazrui/Full-Stack-SDA-Project-Ecommerce-Website-MERN-Stack/assets/119087772/10efcbc6-0742-4c14-8f1b-737cdecbdb91 
+
+
